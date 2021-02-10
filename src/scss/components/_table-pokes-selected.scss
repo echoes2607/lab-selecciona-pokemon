@@ -1,0 +1,43 @@
+.table-pokes-selected{
+    border: solid 1px $dark-grey-2;
+    background-color: $white;
+    padding: 10px 5px 7px 5px;
+    transition: all .2s cubic-bezier(0.47, 0, 0.745, 0.715);
+
+    h3{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+.head-table{
+    border-bottom: solid 1px $dark-grey-2;
+
+    span{
+        padding-bottom: 5px;
+    }
+}
+
+.row-table{
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+
+.table-pokes-dark{
+    background-color: $dark-grey-2;
+
+    h3{
+        color: $yellow;
+    }
+
+    .head-table{
+        border-bottom-color: $white;
+    }
+
+    .btn-delete-all{
+        color: $yellow;
+        border: solid 1px $yellow;
+    }
+    
+}

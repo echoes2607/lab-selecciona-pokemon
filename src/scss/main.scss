@@ -1,0 +1,22 @@
+//normalize styles
+@import './base/normalize';
+//base
+@import './base/fonts';
+@import './base/colors';
+@import './base/global';
+@import './base/grid';
+@import './base/utils';
+
+//components
+@import './components/buttons';
+@import './components/forms';
+@import './components/toolbar';
+@import './components/select';
+@import './components/cards';
+@import './components/table-pokes-selected';
+//views
+@import './views/main';
+@import './views/home';
+@import './views/not-found';
+//Utils
+@import './components/loader'

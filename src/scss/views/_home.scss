@@ -1,0 +1,18 @@
+.home{
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+}
+
+.content-dark{
+    background: $dark-grey-3;
+    color: $white;
+}

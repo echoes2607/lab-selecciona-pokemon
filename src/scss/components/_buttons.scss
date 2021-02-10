@@ -1,0 +1,85 @@
+.btn{
+    display: inline-block;
+    padding: .7rem 2rem;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all .2s cubic-bezier(0.47, 0, 0.745, 0.715);
+    text-decoration: none;
+
+    &-light{
+        background: transparent;
+        color: $yellow;
+        border: solid 1px $yellow;
+
+        &:hover{
+            color: $dark-grey;
+            background: $white;
+            transform: scaleX(1.1);
+            border-color: $white;
+        }
+
+    }
+
+    &-white{
+        background: transparent;
+        color: $dark-grey;
+        border: solid 1px $dark-grey;
+
+        &:hover{
+            color: $white;
+            background: $dark-grey-2;
+            border: solid 1px $dark-grey-2;
+            transform: scaleX(1.1);
+        }
+        &:disabled{
+            transform: scaleX(1);
+            cursor: no-drop;
+
+            &:hover{
+                transform: scaleX(1);
+                background: transparent;
+                color: $dark-grey;
+            }
+        }
+    }
+
+    &-card{
+        border-radius: 12px;
+        border: solid 1px $dark-grey-2;
+        padding: 5px 10px;
+        background: $white;
+        cursor: pointer;
+        transition: all .2s cubic-bezier(0.47, 0, 0.745, 0.715);
+
+        &:hover{
+            background: $dark-grey-2;
+            color: $yellow;
+        }
+    }
+
+    &-delete{
+        padding: 2px 10px;
+        background: red;
+        border: none;
+        color: $white;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    &-delete-all{
+        width: 100%;
+        margin: 10px 0 8px 0;
+        padding: 5px 0;
+        background: transparent;
+        cursor: pointer;
+        border-radius: 12px;
+        color: $dark-grey-2;
+        border: solid 1px $dark-grey-2;
+
+        &:focus{
+            outline: none;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.input-form{
+    border: none;
+    background: $white-bg;
+    border: solid 1px $white-bg;
+    padding: .7rem .5rem;
+    display: block;
+    width: 100%;
+    margin: .3rem auto 1rem auto;
+    transition: all .2s cubic-bezier(0.47, 0, 0.745, 0.715);
+    border-radius: 4px;
+    position: relative;
+
+    &:focus{
+        outline: none;
+        background: #edeff0;
+    }
+}
+
+label{
+    margin: 0;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    form{
+        width: 80%;
+    }
+
+    .btn{
+        margin-top: 1rem;
+    }
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+
+    form{
+        width: 80%;
+    }
+
+    .btn{
+        margin-top: 1rem;
+    }
+}
+
+.error-form{
+    border: solid 1px red;
+}
+
+.ok-form{
+    border: solid 1px green;
+}
+
+.errors-container{
+    width: 100%;
+    padding: 2rem 3rem;
+    margin-bottom: 7rem;
+    color: red;
+}
