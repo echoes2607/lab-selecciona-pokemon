@@ -1,4 +1,4 @@
-# new2
+# Selecciona tu equipo Pokémon
 
 ## Project setup
 ```
